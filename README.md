@@ -29,6 +29,11 @@ Fetch all your datasources:
     $datasources = Antecons\Datasource::get();
     echo $datasources;
 
+Fetch a specific datasource:
+
+    $datasource = Antecons\Datasource::get('test');
+    echo $datasource;
+
 Demonstration
 -------------
 
