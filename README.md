@@ -8,7 +8,7 @@ Requirements
 
 PHP 5
 
-Installation and usage
+Installation and setup
 ----------------------
 
 Download latest version:
@@ -20,6 +20,9 @@ Setup Antecons in your PHP script:
     require_once('/path/to/antecons-php/lib/antecons.php');
     Antecons\Client::$apiKey = 'abc';
     Antecons\Client::$apiSecret = 'def';
+
+Usage example
+-------------
 
 Fetch all your datasources:
     
