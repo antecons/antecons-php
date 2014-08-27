@@ -34,7 +34,7 @@ class Transaction extends Resource
     public function save($datasource_id)
     {
         $url = self::getUrl($datasource_id);
-        $data = $this->prepareDataArray();
+        $data = $this->prepareData();
         Client::request(Client::POST, $url, $data);
     }
 
