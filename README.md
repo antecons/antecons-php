@@ -33,8 +33,3 @@ Fetch a specific datasource:
 
     $datasource = Antecons\Datasource::get('test');
     echo $datasource;
-
-Demonstration
--------------
-
-This library is used in the [Antecons demo webshop](https://demo.antecons.net).
